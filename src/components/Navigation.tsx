@@ -11,24 +11,24 @@ export default function Navigation() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <Link href="/" className="text-2xl font-bold text-gray-800 dark:text-white">
-            Emily H
+            emilyh.me
           </Link>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
-            <a href="#about" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition">
+            <a href="#about" className="text-gray-600 dark:text-gray-300 hover:text-emerald-700 dark:hover:text-emerald-400 transition">
               About
             </a>
-            <a href="#experience" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition">
+            <a href="#experience" className="text-gray-600 dark:text-gray-300 hover:text-emerald-700 dark:hover:text-emerald-400 transition">
               Experience
             </a>
-            <a href="#education" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition">
+            <a href="#education" className="text-gray-600 dark:text-gray-300 hover:text-emerald-700 dark:hover:text-emerald-400 transition">
               Education
             </a>
-            <a href="#skills" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition">
+            <a href="#skills" className="text-gray-600 dark:text-gray-300 hover:text-emerald-700 dark:hover:text-emerald-400 transition">
               Skills
             </a>
-            <a href="#contact" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition">
+            <a href="#contact" className="text-gray-600 dark:text-gray-300 hover:text-emerald-700 dark:hover:text-emerald-400 transition">
               Contact
             </a>
           </div>
@@ -51,19 +51,19 @@ export default function Navigation() {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden pb-4">
-            <a href="#about" className="block py-2 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" onClick={() => setIsOpen(false)}>
+            <a href="#about" className="block py-2 text-gray-600 dark:text-gray-300 hover:text-emerald-700 dark:hover:text-emerald-400" onClick={() => setIsOpen(false)}>
               About
             </a>
-            <a href="#experience" className="block py-2 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" onClick={() => setIsOpen(false)}>
+            <a href="#experience" className="block py-2 text-gray-600 dark:text-gray-300 hover:text-emerald-700 dark:hover:text-emerald-400" onClick={() => setIsOpen(false)}>
               Experience
             </a>
-            <a href="#education" className="block py-2 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" onClick={() => setIsOpen(false)}>
+            <a href="#education" className="block py-2 text-gray-600 dark:text-gray-300 hover:text-emerald-700 dark:hover:text-emerald-400" onClick={() => setIsOpen(false)}>
               Education
             </a>
-            <a href="#skills" className="block py-2 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" onClick={() => setIsOpen(false)}>
+            <a href="#skills" className="block py-2 text-gray-600 dark:text-gray-300 hover:text-emerald-700 dark:hover:text-emerald-400" onClick={() => setIsOpen(false)}>
               Skills
             </a>
-            <a href="#contact" className="block py-2 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" onClick={() => setIsOpen(false)}>
+            <a href="#contact" className="block py-2 text-gray-600 dark:text-gray-300 hover:text-emerald-700 dark:hover:text-emerald-400" onClick={() => setIsOpen(false)}>
               Contact
             </a>
           </div>

@@ -5,28 +5,16 @@ interface SkillCategory {
 
 const skillCategories: SkillCategory[] = [
   {
-    category: "Programming Languages",
-    skills: ["JavaScript", "TypeScript", "Python", "Java", "C++"]
+    category: "Current",
+    skills: ["Power BI", "Analytics", "Claude Code", "Kusto (KQL)", "SQL", "DAX", "PowerQuery", "Azure", "PySpark", "Azure Data Factory", "Synapse"]
   },
   {
-    category: "Frontend Development",
-    skills: ["React", "Next.js", "Vue.js", "HTML5", "CSS3", "Tailwind CSS"]
+    category: "Past",
+    skills: ["C#", "Python", "Java", "Android Development", "Unity", "C++", "C", "OpenCV", "TypeScript"]
   },
   {
-    category: "Backend Development",
-    skills: ["Node.js", "Express", "Django", "REST APIs", "GraphQL"]
-  },
-  {
-    category: "Database & Tools",
-    skills: ["PostgreSQL", "MongoDB", "Redis", "Docker", "Git"]
-  },
-  {
-    category: "Cloud & DevOps",
-    skills: ["AWS", "Azure", "CI/CD", "Kubernetes", "Terraform"]
-  },
-  {
-    category: "Soft Skills",
-    skills: ["Team Leadership", "Problem Solving", "Communication", "Agile/Scrum", "Mentoring"]
+    category: "Leadership & Collaboration",
+    skills: ["Mentoring", "Cross-Team Collaboration", "Intern Coaching", "Women in Tech Advocacy", "Volunteer Instruction", "Program Design"]
   }
 ];
 
@@ -50,7 +38,7 @@ export default function Skills() {
                 {category.skills.map((skill, i) => (
                   <span
                     key={i}
-                    className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium"
+                    className="px-3 py-1 bg-emerald-100 dark:bg-emerald-900 text-emerald-800 dark:text-emerald-200 rounded-full text-sm font-medium"
                   >
                     {skill}
                   </span>
