@@ -8,13 +8,13 @@ interface EducationItem {
 const education: EducationItem[] = [
   {
     degree: "Master of Science, Physics",
-    institution: "University of Oregon — Eugene, OR",
+    institution: "University of Oregon, Eugene, OR",
     period: "June 2016",
     description: "NSF Graduate Research Fellow. Research in quantum properties of nitrogen vacancy centers in diamond."
   },
   {
-    degree: "Bachelor of Science, Physics — Magna Cum Laude",
-    institution: "Illinois Institute of Technology — Chicago, IL",
+    degree: "Bachelor of Science, Physics (Magna Cum Laude)",
+    institution: "Illinois Institute of Technology, Chicago, IL",
     period: "May 2013",
     description: "Research in Raman spectroscopy for superconducting RF cavities. Published in Physical Review Special Topics - Accelerators and Beams."
   },

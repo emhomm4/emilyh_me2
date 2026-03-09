@@ -9,7 +9,7 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     title: "Senior Data Scientist / Senior Software Engineer",
-    company: "Microsoft — Redmond, WA",
+    company: "Microsoft, Redmond, WA",
     period: "December 2023 – Present",
     roles: [
       { title: "Senior Data Scientist", period: "December 2025 – Present" },
@@ -20,13 +20,13 @@ const experiences: ExperienceItem[] = [
       "Leveraged AI tools including Claude Code and the Power BI MCP server to quickly and accurately build reports and accelerate data workflows.",
       "Built & maintained 20+ data pipelines (Scope, Synapse, PySpark, ADF), cutting COGS by removing 4B+ unnecessary telemetry rows/day.",
       "Authored production-ready BI solutions using Kusto, SQL, DAX, PowerQuery.",
-      "Served as Data Champion for the Power Apps org — drove analytics strategy, hosted office hours, and advised teams on data best practices.",
+      "Served as Data Champion for the Power Apps org, driving analytics strategy, hosting office hours, and advising teams on data best practices.",
       "Co-led allyship program (35 grads, 60%+ knowledge increase) & 200+ member women\u2019s group supporting career growth and mentorship. Mentored six first-generation college student interns over the course of four years."
     ]
   },
   {
     title: "Software Engineer II / Software Engineer I",
-    company: "Microsoft — Redmond, WA",
+    company: "Microsoft, Redmond, WA",
     period: "July 2017 – December 2023",
     description: [
       "Contributed to data analytics and engineering initiatives supporting large-scale data pipeline infrastructure.",
@@ -37,10 +37,10 @@ const experiences: ExperienceItem[] = [
   },
   {
     title: "Laboratory Physicist",
-    company: "Research International — Monroe, WA",
+    company: "Research International, Monroe, WA",
     period: "July 2016 – July 2017",
     description: [
-      "Sole developer of a patented Android application (Java, Android Studio) for a chemical/biological detection device — shipped to international production in 2017 and still in use today.",
+      "Sole developer of a patented Android application (Java, Android Studio) for a chemical/biological detection device, which shipped to international production in 2017 and is still in use today.",
       "Applied computer vision (OpenCV) to automate image analysis of chemical test strips, replacing manual interpretation with reliable, repeatable software.",
       "Designed and wrote firmware for a custom CPU microcontroller powering a battery monitoring circuit, implementing analog-to-digital conversion and USB/RS-232 communication protocols."
     ]

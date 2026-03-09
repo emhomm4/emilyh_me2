@@ -10,7 +10,7 @@ export default function Contact() {
             href="mailto:emhomm4@gmail.com"
             className="px-6 py-3 bg-emerald-700 text-white rounded-lg hover:bg-emerald-800 transition font-medium"
           >
-            emhomm4@gmail.com
+            Email
           </a>
           <a
             href="https://www.linkedin.com/in/emily-hommerding-36390620"
