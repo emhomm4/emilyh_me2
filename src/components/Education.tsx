@@ -25,7 +25,10 @@ const certifications = [
 ];
 
 const patents = [
-  "US Patent US20170300779A1"
+  {
+    label: "US Patent US20170300779A1",
+    url: "https://ppubs.uspto.gov/api/patents/html/20170300779?source=US-PGPUB&requestToken=eyJzdWIiOiI3NDc0NWExMC05MDdlLTRlMzgtYTM4MS0yMWE2MDZiMDAwNDYiLCJ2ZXIiOiIxMTMxNzRlZS0wZDQ3LTQyZjQtOTE3Mi0xYThlMjA5MjY5NzkiLCJleHAiOjB9"
+  }
 ];
 
 const publications = [
@@ -82,7 +85,14 @@ export default function Education() {
               {patents.map((patent, i) => (
                 <li key={i} className="text-gray-600 dark:text-gray-300 flex items-start">
                   <span className="text-emerald-700 dark:text-emerald-400 mr-2">•</span>
-                  <span>{patent}</span>
+                  <a
+                    href={patent.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-emerald-700 dark:text-emerald-400 underline hover:text-emerald-800 dark:hover:text-emerald-300"
+                  >
+                    {patent.label}
+                  </a>
                 </li>
               ))}
             </ul>
