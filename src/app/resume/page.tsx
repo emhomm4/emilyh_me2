@@ -36,7 +36,7 @@ export default function ResumePage() {
         style={{
           maxWidth: '780px',
           margin: '24px auto',
-          padding: '40px 48px',
+          padding: '12px 48px 40px',
           fontFamily: 'Georgia, "Times New Roman", serif',
           color: '#111',
           background: '#fff',
