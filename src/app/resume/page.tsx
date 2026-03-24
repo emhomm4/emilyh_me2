@@ -10,6 +10,8 @@ export default function ResumePage() {
           .no-print { display: none !important; }
           body { background: white !important; }
           @page { margin: 0.5in; size: letter; }
+          ul { list-style-type: disc !important; padding-left: 16px !important; }
+          li { list-style-type: disc !important; display: list-item !important; }
         }
       `}</style>
 
@@ -197,9 +199,10 @@ function Job({
         <span style={{ fontSize: '12px', color: '#6b7280', whiteSpace: 'nowrap', marginLeft: '12px' }}>{period}</span>
       </div>
       <div style={{ fontSize: '12.5px', color: '#047857', marginBottom: '4px' }} dangerouslySetInnerHTML={{ __html: `${company} &mdash; ${location}` }} />
-      <ul style={{ margin: '0', paddingLeft: '16px' }}>
+      <ul style={{ margin: '0', paddingLeft: '16px', listStyleType: 'disc' }}
+      >
         {bullets.map((b, i) => (
-          <li key={i} style={{ fontSize: '12.5px', marginBottom: '2px' }}>{b}</li>
+          <li key={i} style={{ fontSize: '12.5px', marginBottom: '2px', display: 'list-item' }}>{b}</li>
         ))}
       </ul>
     </div>
