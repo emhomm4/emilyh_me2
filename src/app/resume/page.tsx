@@ -68,29 +68,29 @@ export default function ResumePage() {
           <Job
             title="Senior Data Scientist"
             subtitle="Senior Software Engineer (Dec 2023 – Dec 2025)"
-            company="Microsoft — Power Apps &amp; Dynamics 365"
+            company="Microsoft"
             location="Redmond, WA"
             period="Dec 2023 – Present"
             bullets={[
-              'Delivered product insights using time series forecasting (seasonality decomposition, anomaly detection), cohort/retention and funnel analysis, k-means clustering, and churn modeling — driving +4M monthly active users and +15pp growth in paid conversion.',
-              'Partnered with customer advisory teams to identify growth opportunities, resulting in 100K new paid license activations.',
-              'Led AI-first analytics solutions: internal data assistant (Power Apps, Microsoft Copilot Studio), AI-driven dashboarding, and automated planning workflows to scale self-service insights.',
-              'Designed, built, and maintained 20+ production data pipelines (Scope, Azure Synapse, PySpark, ADF); eliminated 4B+ unnecessary telemetry records/day, reducing COGS.',
-              'Served as Data Champion for an 800+ person org — defined analytics strategy, hosted office hours, promoted data governance.',
-              'Applied AI-assisted development tools (Claude Code, Power BI MCP Server) to streamline analytics workflows and reduce time-to-insight.',
-              'Launched 35-person allyship program (60%+ knowledge gains), led 200+ member women\'s professional group, mentored 6 first-gen college interns over 4 years.',
+              <span key={0}>Delivered product insights using time series forecasting, cohort/retention &amp; funnel analysis, k-means clustering, and churn modeling — driving <strong>+4M monthly active users</strong> and <strong>+15pp growth in paid conversion</strong>.</span>,
+              <span key={1}>Partnered with customer advisory teams to identify growth opportunities, resulting in <strong>100K new paid license activations</strong>.</span>,
+              <span key={2}>Applied AI-assisted development tools (<strong>Claude Code</strong>, <strong>Power BI MCP Server</strong>) to streamline analytics workflows and reduce time-to-insight.</span>,
+              <span key={3}>Led AI-first analytics solutions: internal data assistant (Power Apps, Microsoft Copilot Studio), AI-driven dashboarding, and automated planning workflows to scale self-service insights.</span>,
+              <span key={4}>Designed, built, and maintained <strong>20+ production data pipelines</strong> (Scope, Azure Synapse, PySpark, ADF); eliminated <strong>4B+ unnecessary telemetry records/day</strong>, reducing COGS.</span>,
+              <span key={5}>Served as <strong>Data Champion</strong> for an 800+ person org — defined analytics strategy, hosted office hours, promoted data governance.</span>,
+              <span key={6}>Launched 35-person allyship program (<strong>60%+ knowledge gains</strong>), led 200+ member women&apos;s professional group, mentored <strong>6 first-gen college interns</strong> over 4 years.</span>,
             ]}
           />
           <Job
             title="Software Engineer II / Software Engineer I"
-            company="Microsoft — Power Apps &amp; Dynamics 365"
+            company="Microsoft"
             location="Redmond, WA"
             period="Jul 2017 – Dec 2023"
             bullets={[
-              'Contributed to large-scale data pipeline infrastructure; implemented GDPR-compliant data handling and privacy safeguards for 100+ pipelines.',
-              'Developed new functions in the Power Apps formula language (C#, TypeScript) and enhanced web services; served on 24/7 on-call rotation.',
-              'Partnered with Red Cross developers to rapidly build Power Apps solutions during the COVID-19 pandemic.',
-              'Built a visual, interactive server health monitoring tool for Dynamics 365 telemetry using Unity; improved Azure services and CI/CD pipeline efficiency.',
+              <span key={0}>Contributed to large-scale data pipeline infrastructure; implemented <strong>GDPR-compliant</strong> data handling and privacy safeguards for <strong>100+ pipelines</strong>.</span>,
+              <span key={1}>Developed new functions in the Power Apps formula language (C#, TypeScript) and enhanced web services; served on <strong>24/7 on-call rotation</strong>.</span>,
+              <span key={2}>Partnered with <strong>Red Cross</strong> developers to rapidly build Power Apps solutions during the COVID-19 pandemic.</span>,
+              <span key={3}>Built a visual, interactive server health monitoring tool for Dynamics 365 telemetry using Unity; improved Azure services and CI/CD pipeline efficiency.</span>,
             ]}
           />
           <Job
@@ -99,8 +99,8 @@ export default function ResumePage() {
             location="Monroe, WA"
             period="Jul 2016 – Jul 2017"
             bullets={[
-              'Sole developer of a patented Android application (Java, Android Studio) for a chemical/biological detection device; shipped to international production in 2017.',
-              'Applied computer vision (OpenCV) to automate image analysis of chemical test strips. Designed firmware for a custom CPU microcontroller with USB/RS-232 communication.',
+              <span key={0}>Sole developer of a <strong>patented</strong> Android application (Java, Android Studio) for a chemical/biological detection device; shipped to <strong>international production in 2017</strong>.</span>,
+              <span key={1}>Applied computer vision (OpenCV) to automate image analysis of chemical test strips; designed firmware for a custom CPU microcontroller with USB/RS-232 communication.</span>,
             ]}
           />
         </Section>
@@ -183,7 +183,7 @@ function Job({
   company: string;
   location: string;
   period: string;
-  bullets: string[];
+  bullets: React.ReactNode[];
 }) {
   return (
     <div style={{ marginBottom: '10px' }}>
