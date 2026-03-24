@@ -31,6 +31,9 @@ export default function Navigation() {
             <a href="#contact" className="text-gray-600 dark:text-gray-300 hover:text-emerald-700 dark:hover:text-emerald-400 transition">
               Contact
             </a>
+            <Link href="/resume" className="px-4 py-1.5 bg-emerald-700 text-white rounded-lg hover:bg-emerald-800 transition font-medium text-sm">
+              Resume
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -66,6 +69,9 @@ export default function Navigation() {
             <a href="#contact" className="block py-2 text-gray-600 dark:text-gray-300 hover:text-emerald-700 dark:hover:text-emerald-400" onClick={() => setIsOpen(false)}>
               Contact
             </a>
+            <Link href="/resume" className="block py-2 text-emerald-700 dark:text-emerald-400 font-medium hover:text-emerald-800" onClick={() => setIsOpen(false)}>
+              Resume
+            </Link>
           </div>
         )}
       </div>

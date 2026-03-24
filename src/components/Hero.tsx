@@ -43,6 +43,12 @@ export default function Hero() {
             >
               View My Work
             </a>
+            <a
+              href="/resume"
+              className="px-8 py-3 bg-white/10 backdrop-blur-sm text-white border-2 border-white/60 rounded-lg hover:bg-white/20 transition font-medium"
+            >
+              Download Resume
+            </a>
           </div>
         </div>
       </div>
