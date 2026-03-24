@@ -16,12 +16,15 @@ const experiences: ExperienceItem[] = [
       { title: "Senior Software Engineer", period: "December 2023 – December 2025" }
     ],
     description: [
-      "Drove product insights via high impact dashboards and on-demand analytics, increasing monthly active usage by 3.5M+, boosting paid compliance by 15pp, and influencing 100k+ paid license activations.",
-      "Leveraged AI tools including Claude Code and the Power BI MCP server to quickly and accurately build reports and accelerate data workflows.",
-      "Built & maintained 20+ data pipelines (Scope, Synapse, PySpark, ADF), cutting COGS by removing 4B+ unnecessary telemetry rows/day.",
-      "Authored production-ready BI solutions using Kusto, SQL, DAX, PowerQuery.",
-      "Served as Data Champion for the Power Apps org, driving analytics strategy, hosting office hours, and advising teams on data best practices.",
-      "Co-led allyship program (35 grads, 60%+ knowledge increase) & 200+ member women\u2019s group supporting career growth and mentorship. Mentored six first-generation college student interns over the course of four years."
+      "Delivered product insights using time series forecasting (including seasonality decomposition and anomaly detection), cohort/retention and funnel analysis, k-means clustering for user segmentation, and churn modeling, driving +4M monthly active users and +15pp growth in paid conversion.",
+      "Partnered with customer advisory teams to identify and prioritize growth opportunities, resulting in 100K new paid license activations.",
+      "Applied AI-assisted development tools (Claude Code, Power BI MCP Server) to streamline analytics workflows and reduce time-to-insight.",
+      "Led development of AI-first analytics solutions, including an internal data assistant (Power Apps, Microsoft Copilot Studio), AI-driven dashboarding, and automated planning workflows to scale self-service insights.",
+      "Authored and maintained 5+ high-impact Power BI dashboards, enabling executive decision-making and improving visibility into key product and business metrics.",
+      "Designed, built, and maintained 20+ production data pipelines using Scope, Azure Synapse, PySpark, and Azure Data Factory (ADF).",
+      "Eliminated 4B+ unnecessary telemetry records per day, reducing data processing costs and improving pipeline efficiency.",
+      "Served as Data Champion for an 800+ person organization, defining analytics strategy, leading office hours, and promoting data governance and best practices.",
+      "Led initiatives to advance inclusion and mentorship: launched a 35-person allyship program achieving 60%+ knowledge gains, built and led a 200+ member women\u2019s professional development group, and mentored 6 first-generation college student interns over 4 years."
     ]
   },
   {
@@ -29,10 +32,10 @@ const experiences: ExperienceItem[] = [
     company: "Microsoft, Redmond, WA",
     period: "July 2017 – December 2023",
     description: [
-      "Contributed to data analytics and engineering initiatives supporting large-scale data pipeline infrastructure.",
-      "Implemented new functions in the Power Apps formula language (C#, TypeScript) and served on a 24/7 on-call rotation to support production web services.",
-      "Partnered with Red Cross developers to rapidly build Power Apps solutions during the COVID-19 pandemic.",
-      "Built a visual, interactive server health monitoring tool for Dynamics 365 telemetry using Unity; improved Azure services and CI/CD pipelines."
+      "Contributed to data analytics and engineering initiatives supporting large-scale data pipeline infrastructure, including implementing GDPR-compliant data handling and privacy safeguards for 100+ pipelines.",
+      "Developed new functions in the Power Apps formula language (C#, TypeScript) and enhanced web functionality for Power Apps; served on a 24/7 on-call rotation to support production web services.",
+      "Partnered with Red Cross developers to rapidly build Power Apps solutions during the COVID-19 pandemic, accelerating service delivery.",
+      "Built a visual, interactive server health monitoring tool for Dynamics 365 telemetry using Unity, improving Azure services performance and CI/CD pipeline efficiency."
     ]
   },
   {
